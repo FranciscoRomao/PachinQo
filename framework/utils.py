@@ -1,7 +1,7 @@
 from qiskit import QuantumCircuit
-from zones import StorageZone, EntanglementZone, ReadoutZone
-from devices import AOD, SLM
-from atom import Atom
+from .zones import StorageZone, EntanglementZone, ReadoutZone
+from .devices import AOD, SLM
+from .atom import Atom
 
 def load_qasm_to_circuit(qasm_file_path):
     quantum_circuit = QuantumCircuit.from_qasm_file(qasm_file_path)

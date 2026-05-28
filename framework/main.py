@@ -1,4 +1,4 @@
-from grid import Grid
+from .grid import Grid
 import os
 import pickle
 

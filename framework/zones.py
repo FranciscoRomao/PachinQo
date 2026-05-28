@@ -1,6 +1,6 @@
 from typing import Dict, List, Tuple
-from atom import Atom
-from constants import STORAGE_SP, ENTANG_SP
+from .atom import Atom
+from .constants import STORAGE_SP, ENTANG_SP
 
 class Zone:
     def __init__(self, bottom_left_x: float, bottom_left_y: float, width: float, height: float, spacing: float):

@@ -7,11 +7,11 @@ import time
 import pickle
 import os
 
-from constants import STORAGE_SP, ENTANG_SP, MIN_SP
-from devices import AOD, SLM
-from zones import StorageZone, EntanglementZone, ReadoutZone
-from atom import Atom
-from utils import load_qasm_to_circuit, debug_print_atom_info, debug_print_mappings, validate_partial_swaps
+from .constants import STORAGE_SP, ENTANG_SP, MIN_SP
+from .devices import AOD, SLM
+from .zones import StorageZone, EntanglementZone, ReadoutZone
+from .atom import Atom
+from .utils import load_qasm_to_circuit, debug_print_atom_info, debug_print_mappings, validate_partial_swaps
 """
 Status enum for each AOD column.
 """
